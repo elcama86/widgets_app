@@ -51,8 +51,8 @@ class _CustomListTile extends StatelessWidget {
         Icons.arrow_forward_ios_rounded,
         color: colors.primary,
       ),
-      onTap: (){
-        //TODO: navegar a otra pantalla
+      onTap: () {
+        Navigator.pushNamed(context, item.link);
       },
     );
   }
